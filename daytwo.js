@@ -46,5 +46,38 @@ if (numberUser == numberRamdon){
 } */
 
 //Exercise 8
-const numberTyped = parseInt(prompt(console.log(`Type a number to find out if is multiple to 5`)))
-numberTyped % 5 == 0 ? console.log (`Yes, ${numberTyped} is multiple to 5`) : console.log (`No, ${numberTyped} is not multiple to 5`)
+/* const numberTyped = parseInt(prompt(console.log(`Type a number to find out if is multiple to 5`)))
+numberTyped % 5 == 0 ? console.log (`Yes, ${numberTyped} is multiple to 5`) : console.log (`No, ${numberTyped} is not multiple to 5`) */
+
+//Exercise 9
+/* const numberTyped = parseInt(prompt(`Please type a number`))
+if (numberTyped < 10) {
+  console.log(`${numberTyped} is less than 10`)
+} else if (numberTyped > 10) {
+  console.log(`${numberTyped} is greater than 10`)
+}else if (numberTyped == 10) {
+  console.log(`${numberTyped} is equal to 10`)
+} */
+
+//Exercise 10
+/* const weight = parseFloat(prompt(`Please enter your weight`))
+const height = parseFloat(prompt(`Please enter your height`))
+const bmi = weight / ((height)^2)
+
+if (bmi < 18.5){
+  console.log(`Your BMC is ${bmi} and is considered low or significant that you are underweight`)
+} else if (bmi >= 18.5 && bmi <= 24.9){
+  console.log(`Your BMC is ${bmi} and is considered is normal`)
+} else if (bmi >= 25 && bmi <= 29.9){
+  console.log(`Your BMC is ${bmi} and is considered overweight`)
+}else console.log (`You BMC is ${bmi} and is considered obese`) */
+
+//Exercise 11
+const numberTyped = parseInt(prompt(`Please type a number`))
+if(numberTyped % 3 == 0 && numberTyped % 5 == 0){
+  console.log(`bingbong`)
+}else if (numberTyped % 3 == 0){
+  console.log(`bing`)
+}else if (numberTyped % 5 == 0) {
+  console.log (`bong`)
+}else console.log(`${numberTyped}`)
